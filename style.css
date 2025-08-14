@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8; /* Light gray-blue background */
+}
+.container {
+    max-width: 1000px;
+}
+.frame-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* To create a square container */
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adds shadow */
+}
